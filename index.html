@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>متجر المنتجات</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <div>
+          <h1>متجر رِحّات</h1>
+          <p class="subtitle">اختيارات منتقاة بعناية لاحتياجاتك اليومية</p>
+        </div>
+        <nav>
+          <a class="button ghost" href="admin.html">صفحة الإدارة</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div>
+          <h2>تسوّق بثقة</h2>
+          <p>
+            منتجات عالية الجودة مع عروض موسمية وشحن سريع. أضف المنتجات عبر صفحة الإدارة
+            لتحديث المتجر فوراً.
+          </p>
+          <div class="hero-actions">
+            <button class="button primary">تسوّق الآن</button>
+            <button class="button ghost">تواصل معنا</button>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>مزايا سريعة</h3>
+          <ul>
+            <li>دفع آمن</li>
+            <li>ضمان استرجاع خلال 14 يومًا</li>
+            <li>دعم فني على مدار الأسبوع</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2>أحدث المنتجات</h2>
+          <p>اكتشف مجموعتنا المتجددة باستمرار</p>
+        </div>
+        <div id="products" class="product-grid"></div>
+      </section>
+
+      <section class="cta">
+        <h2>اشترك لتصلك العروض أولاً</h2>
+        <p>انضم لقائمة البريد وكن أول من يعرف عن التخفيضات الحصرية.</p>
+        <form class="cta-form">
+          <input type="email" placeholder="البريد الإلكتروني" aria-label="البريد الإلكتروني" />
+          <button class="button primary" type="submit">اشترك</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <span>© 2024 متجر رِحّات</span>
+        <div class="footer-links">
+          <a href="#">سياسة الخصوصية</a>
+          <a href="#">الشروط والأحكام</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
